@@ -33,9 +33,7 @@ Authentication
 - JWT (JSON Web Token)
 - bcrypt
 
-
 📁 Project Structure
-
 admin-panel/
 │
 ├── public/
@@ -56,7 +54,6 @@ admin-panel/
 ├── vite.config.js
 └── README.md
 
-
 🚀 Installation
 Clone the repository
 Navigate to the project directory
@@ -69,6 +66,7 @@ Create a `.env` file in the root directory.
 Runs the development server.
 Creates a production build.
 
+
 Previews the production build locally.
 Runs ESLint.
 📸 Screens
@@ -79,7 +77,6 @@ Runs ESLint.
 - Settings
 
 🔒 Authentication
-
 The admin panel uses JWT-based authentication.
 Workflow:
 1. Admin Login
