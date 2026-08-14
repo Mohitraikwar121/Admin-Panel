@@ -20,7 +20,7 @@ Frontend
 - Tailwind CSS
 - React Router
 - Axios
-
+  
 Backend
 - Node.js
 - Express.js
@@ -61,6 +61,7 @@ Install dependencies
 Start the development server
 
 ⚙️ Environment Variables
+
 Create a `.env` file in the root directory.
 📜 Available Scripts
 Runs the development server.
@@ -86,7 +87,6 @@ Workflow:
 5. Logout Clears Session
 
 📊 Dashboard Modules
-
 - Total Users
 - Active Users
 - Orders
