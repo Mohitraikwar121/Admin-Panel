@@ -214,7 +214,7 @@ Built with performance and maintainability in mind.
                          │  Vite + Tailwind CSS │
                          └──────────┬───────────┘
                                     │
-                              Axios / REST API
+                              Axios | REST API
                                     │
                                     ▼
                          ┌──────────────────────┐
