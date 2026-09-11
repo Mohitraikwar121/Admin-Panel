@@ -1,5 +1,4 @@
 # 🛡️ Admin Panel
-
 <p align="center">
   <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white" alt="Vite" />
@@ -9,8 +8,6 @@
   <img src="https://img.shields.io/badge/MongoDB-8-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Auth-JWT-000000?logo=jsonwebtokens&logoColor=white" alt="JWT" />
 </p>
-
-
 <p align="center">
   <strong>A modern, secure, and scalable full-stack administration platform.</strong>
 </p>
@@ -18,7 +15,6 @@
 <p align="center">
   Manage users, monitor analytics, control resources, manage content, and gain centralized visibility into application activity — all from a single dashboard.
 </p>
-
 ## 📋 Table of Contents
 * [✨ Overview](#-overview)
 * [🚀 Key Features](#-key-features)
@@ -131,7 +127,6 @@ Powerful search and filtering capabilities across major dashboard modules.
 | Activities |    ✅   |    ✅   |
 
 ## 📈 Charts & Reports
-
 Interactive analytics for understanding application performance.
 * 📈 User growth
 * 💰 Revenue trends
@@ -148,12 +143,8 @@ Designed to provide a consistent experience across:
 * 📱 Tablet
 * 📲 Mobile
 
----
-
 ## 🌙 Theme Support
-
 Modern dashboard interface with support for:
-
 * ☀️ Light mode
 * 🌙 Dark mode
 * 🎨 Consistent design system
@@ -338,26 +329,26 @@ The frontend will normally be available at:
 # 🔐 Authentication
 The application uses **JWT-based authentication** with bcrypt password hashing.
 
-┌───────────────┐
-│     Admin     │
-└───────┬───────┘
-        │
-        ▼
-┌───────────────┐
-│  Login Form   │
-└───────┬───────┘
-        │
-        ▼
+   ┌───────────────┐
+   │     Admin     │
+   └───────┬───────┘
+           │
+           ▼
+   ┌───────────────┐
+   │  Login Form   │
+   └───────┬───────┘
+           │
+           ▼
  POST /api/auth/login
-        │
-        ▼
+           │
+           ▼
 ┌─────────────────────┐
 │ Validate Credentials│
 └──────────┬──────────┘
            │
            ▼
 ┌─────────────────────┐
-│ Compare Password    │
+│  Compare Password   │
 │      bcrypt         │
 └──────────┬──────────┘
            │
@@ -388,7 +379,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 
 # 📊 Dashboard Modules
 ## 📌 Overview
-
 * Total users
 * Active users
 * New users
@@ -397,7 +387,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 * Growth rate
 
 ## 📈 Analytics
-
 * User growth charts
 * Revenue charts
 * Order statistics
@@ -406,7 +395,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 * Performance reports
 
 ## 👥 Users
-
 * User list
 * User details
 * Search
@@ -415,7 +403,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 * User deletion
 
 ## 📝 Content
-
 * Content list
 * Create content
 * Edit content
@@ -423,7 +410,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 * Publish/unpublish
 
 ## 📂 Resources
-
 * Category management
 * Resource management
 * Search
@@ -431,7 +417,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 * CRUD operations
 
 ## 🔔 Notifications
-
 * Recent notifications
 * System alerts
 * Activity updates
@@ -439,7 +424,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 
 # 🔌 API Endpoints
 ## Authentication
-
 | Method | Endpoint           | Description                |
 | ------ | ------------------ | -------------------------- |
 | `POST` | `/api/auth/login`  | Authenticate administrator |
@@ -447,7 +431,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 | `GET`  | `/api/auth/me`     | Get authenticated user     |
 
 ## Users
-
 | Method   | Endpoint         | Description    |
 | -------- | ---------------- | -------------- |
 | `GET`    | `/api/users`     | Get all users  |
@@ -457,7 +440,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 | `DELETE` | `/api/users/:id` | Delete user    |
 
 ## Categories
-
 | Method   | Endpoint              | Description     |
 | -------- | --------------------- | --------------- |
 | `GET`    | `/api/categories`     | Get categories  |
@@ -466,7 +448,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 | `DELETE` | `/api/categories/:id` | Delete category |
 
 ## Content
-
 | Method   | Endpoint           | Description    |
 | -------- | ------------------ | -------------- |
 | `GET`    | `/api/content`     | Get content    |
@@ -478,7 +459,6 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
 The dashboard follows a clean, modern, and professional administrative design system.
 
 ### Interface Highlights
-
 * 🎯 Clean dashboard layout
 * 📚 Sidebar navigation
 * 🔝 Top navigation bar
@@ -510,7 +490,6 @@ The project can be extended with automated testing using:
 * **Postman**
 
 ### Recommended Test Areas
-
 * Authentication
 * Protected routes
 * API endpoints
@@ -522,7 +501,6 @@ The project can be extended with automated testing using:
 
 # 🗺️ Development Roadmap
 Phase 1 ─────────────────────────────── ✅
-│
 ├── Project Setup
 ├── Authentication
 ├── Dashboard UI
@@ -530,7 +508,6 @@ Phase 1 ────────────────────────
 
 
 Phase 2 ─────────────────────────────── 🚧
-│
 ├── User Management
 ├── Content Management
 ├── Categories
@@ -538,7 +515,6 @@ Phase 2 ────────────────────────
 
 
 Phase 3 ─────────────────────────────── 🔜
-│
 ├── Role-Based Access Control
 ├── Audit Logs
 ├── Notifications
@@ -546,7 +522,6 @@ Phase 3 ────────────────────────
 
 
 Phase 4 ─────────────────────────────── 🔮
-│
 ├── Real-Time Analytics
 ├── Two-Factor Authentication
 ├── Redis Caching
@@ -554,7 +529,6 @@ Phase 4 ────────────────────────
 
 # 🔮 Future Improvements
 ## 🔐 Advanced Security
-
 * Role-Based Access Control (RBAC)
 * Two-Factor Authentication (2FA)
 * Refresh-token rotation
@@ -563,7 +537,6 @@ Phase 4 ────────────────────────
 * Permission management
 
 ## 📊 Advanced Analytics
-
 * Real-time dashboard
 * Custom date ranges
 * Advanced reporting
@@ -572,14 +545,12 @@ Phase 4 ────────────────────────
 * KPI monitoring
 
 ## 🔔 Notifications
-
 * Email notifications
 * Push notifications
 * Real-time alerts
 * Notification preferences
 
 ## ⚡ Performance
-
 * Redis caching
 * API response optimization
 * Database indexing
@@ -588,7 +559,6 @@ Phase 4 ────────────────────────
 * Query optimization
 
 ## 📝 Administration
-
 * Audit logs
 * Activity history
 * Admin management
@@ -596,7 +566,6 @@ Phase 4 ────────────────────────
 * System health monitoring
 
 ## 🌍 Internationalization
-
 * Multi-language support
 * Localization
 * Time-zone support
@@ -610,7 +579,6 @@ Contributions, suggestions, and improvements are welcome.
 ### 4. Commit Your Changes
 ### 5. Push the Branch
 ### 6. Open a Pull Request
-
 Describe your changes and submit a pull request for review.
 
 # 📄 License
