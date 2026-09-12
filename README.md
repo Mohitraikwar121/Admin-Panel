@@ -39,6 +39,7 @@
 **Admin Panel** is a full-stack administrative dashboard built to simplify application management through a clean, responsive, and intuitive interface.
 The platform provides administrators with a centralized control center to:
 
+
 * 🔐 Authenticate securely
 * 👥 Manage application users
 * 📊 Monitor business and system analytics
@@ -49,7 +50,9 @@ The platform provides administrators with a centralized control center to:
 * 🔔 Monitor notifications and system activity
 * ⚙️ Control administrative resources
 
+
 The application follows a **modular full-stack architecture**, making it easy to extend with advanced capabilities such as RBAC, audit logging, real-time analytics, notifications, caching, and system monitoring.
+
 
 # 🚀 Key Features
 ## 🔐 Authentication & Security
@@ -66,6 +69,7 @@ The application follows a **modular full-stack architecture**, making it easy to
 * Input validation
 * Authorization middleware
 
+
 ## 👥 User Management
 Complete user administration from a centralized interface.
 * View all registered users
@@ -77,6 +81,7 @@ Complete user administration from a centralized interface.
 * Delete users
 * Monitor user activity
 * Manage account status
+
 
 ## 📊 Dashboard Analytics
 Get a high-level overview of application performance.
@@ -91,6 +96,7 @@ Get a high-level overview of application performance.
 * 📢 Notifications
 * 📄 System Reports
 
+
 ## 📝 Content Management
 Manage application content through a centralized CRUD interface.
 * Create content
@@ -101,6 +107,7 @@ Manage application content through a centralized CRUD interface.
 * Search content
 * Filter content
 * Organize application information
+
 
 ## 📂 Category & Resource Management
 Keep application resources organized and easy to maintain.
