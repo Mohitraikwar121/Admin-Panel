@@ -39,7 +39,6 @@
 **Admin Panel** is a full-stack administrative dashboard built to simplify application management through a clean, responsive, and intuitive interface.
 The platform provides administrators with a centralized control center to:
 
-
 * 🔐 Authenticate securely
 * 👥 Manage application users
 * 📊 Monitor business and system analytics
@@ -50,9 +49,7 @@ The platform provides administrators with a centralized control center to:
 * 🔔 Monitor notifications and system activity
 * ⚙️ Control administrative resources
 
-
 The application follows a **modular full-stack architecture**, making it easy to extend with advanced capabilities such as RBAC, audit logging, real-time analytics, notifications, caching, and system monitoring.
-
 
 # 🚀 Key Features
 ## 🔐 Authentication & Security
@@ -68,7 +65,6 @@ The application follows a **modular full-stack architecture**, making it easy to
 * Environment-based secrets
 * Input validation
 * Authorization middleware
-
 
 ## 👥 User Management
 Complete user administration from a centralized interface.
@@ -157,12 +153,8 @@ Modern dashboard interface with support for:
 * 🎨 Consistent design system
 * 📱 Responsive layouts
 
-
-
 ## ⚡ Performance
-
 Built with performance and maintainability in mind.
-
 * ⚡ Vite-powered development
 * 🧩 Component-based architecture
 * 💤 Lazy-loaded routes
@@ -184,7 +176,6 @@ Built with performance and maintainability in mind.
 | **JavaScript / JSX** | Application logic                    |
 
 ## ⚙️ Backend
-
 | Technology       | Purpose                                           |
 | ---------------- | ------------------------------------------------- |
 | **Node.js 20+**  | JavaScript runtime                                |
@@ -202,8 +193,7 @@ Built with performance and maintainability in mind.
 
 
 # 🏗️ Architecture
-
-                         ┌──────────────────────┐
+             ┌──────────────────────┐
                          │      Admin User      │
                          └──────────┬───────────┘
                                     │
@@ -237,8 +227,6 @@ Built with performance and maintainability in mind.
 
 
 ### Architecture Flow
-
-
 Admin
   ↓
 React UI
