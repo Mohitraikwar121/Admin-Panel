@@ -78,7 +78,6 @@ Complete user administration from a centralized interface.
 * Monitor user activity
 * Manage account status
 
-
 ## 📊 Dashboard Analytics
 Get a high-level overview of application performance.
 ### Key Metrics
@@ -92,7 +91,6 @@ Get a high-level overview of application performance.
 * 📢 Notifications
 * 📄 System Reports
 
-
 ## 📝 Content Management
 Manage application content through a centralized CRUD interface.
 * Create content
@@ -103,7 +101,6 @@ Manage application content through a centralized CRUD interface.
 * Search content
 * Filter content
 * Organize application information
-
 
 ## 📂 Category & Resource Management
 Keep application resources organized and easy to maintain.
