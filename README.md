@@ -242,6 +242,7 @@ Mongoose
   ↓
 MongoDB
 
+
 # 📁 Project Structure
 
 admin-panel/
@@ -279,6 +280,7 @@ admin-panel/
 ├── .gitignore
 ├── README.md
 └── package.json
+
 
 # ⚙️ Getting Started
 ## 1. Clone the Repository
@@ -324,37 +326,37 @@ The application uses **JWT-based authentication** with bcrypt password hashing.
    ┌───────────────┐
    │     Admin     │
    └───────┬───────┘
-           │
-           ▼
+             │
+             ▼
    ┌───────────────┐
    │  Login Form   │
    └───────┬───────┘
-           │
-           ▼
+             │
+             ▼
  POST /api/auth/login
-           │
-           ▼
+            │
+            ▼
 ┌─────────────────────┐
 │ Validate Credentials│
 └──────────┬──────────┘
-           │
-           ▼
+             │
+             ▼
 ┌─────────────────────┐
 │  Compare Password   │
 │      bcrypt         │
 └──────────┬──────────┘
-           │
-           ▼
+             │
+             ▼
 ┌─────────────────────┐
 │ Generate JWT Token  │
 └──────────┬──────────┘
-           │
-           ▼
+             │
+             ▼
 ┌─────────────────────┐
 │ Protected API Routes│
 └──────────┬──────────┘
-           │
-           ▼
+             │
+             ▼
 ┌─────────────────────┐
 │ Logout / Clear Auth │
 └─────────────────────┘
