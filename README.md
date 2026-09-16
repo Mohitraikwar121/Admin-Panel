@@ -15,6 +15,7 @@
 <p align="center">
   Manage users, monitor analytics, control resources, manage content, and gain centralized visibility into application activity — all from a single dashboard.
 </p>
+
 ## 📋 Table of Contents
 * [✨ Overview](#-overview)
 * [🚀 Key Features](#-key-features)
@@ -77,6 +78,7 @@ Complete user administration from a centralized interface.
 * Delete users
 * Monitor user activity
 * Manage account status
+
 
 ## 📊 Dashboard Analytics
 Get a high-level overview of application performance.
