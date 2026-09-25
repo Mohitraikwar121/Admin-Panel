@@ -11,7 +11,7 @@
 <p align="center">
   <strong>A modern, secure, and scalable full-stack administration platform.</strong>
 </p> 
- 
+           
 <p align="center">
   Manage users, monitor analytics, control resources, manage content, and gain centralized visibility into application activity — all from a single dashboard.
 </p>
