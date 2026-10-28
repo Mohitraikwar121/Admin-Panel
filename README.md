@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/MongoDB-8-47A248?logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/Auth-JWT-000000?logo=jsonwebtokens&logoColor=white" alt="JWT" />
 </p>   
-<p align="center">
+<p align="center"> 
   <strong>A modern, secure, and scalable full-stack administration platform.</strong>
 </p>  
                   
